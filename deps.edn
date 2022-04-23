@@ -1,0 +1,9 @@
+{:paths ["src/clj" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        metosin/reitit {:mvn/version "0.5.18"}
+        ring/ring-defaults {:mvn/version "0.3.3"}
+        hiccup/hiccup {:mvn/version "2.0.0-alpha2"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.4"}}
+
+;; :aliases {:run {:main-opts ["-m" "app.core"]}}
+}
